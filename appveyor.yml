@@ -8,6 +8,7 @@ environment:
     secure: buBWtAa04hCnz74nMONW8pZgTY9sx7fdKOPXpTsMs4JoxjWX/LRUBRcmlSjpvo1a
 
 install:
+  - call installRake.bat
   - call installChangeLog.bat
 
 build_script:
