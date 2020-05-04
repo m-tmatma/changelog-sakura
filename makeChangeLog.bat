@@ -49,8 +49,8 @@ call github_changelog_generator                      ^
 	-o %OUTFILENAME%                                 ^
 	--exclude-labels %EXCLUDELABELS%                 ^
 	--breaking-labels %BREAKING_LABELS%              ^
-	--cache-file %TEMP%\github-changelog-http-cache  ^
-	--cache-log  %TEMP%\github-changelog-logger.log  || (echo error run github_changelog_generator && exit /b 1)
+	--cache-file github-changelog-http-cache         ^
+	--cache-log  github-changelog-logger.log  || (echo error run github_changelog_generator && exit /b 1)
 
 @echo.
 @echo filter issues

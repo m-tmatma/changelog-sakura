@@ -16,5 +16,5 @@ build_script:
 artifacts:
   - path: 'CHANGELOG.md'
   - path: 'CHANGELOG_without_issues.md'
-  - path: '%TEMP%\github-changelog-http-cache'
-  - path: '%TEMP%\github-changelog-logger.log'
+  - path: 'github-changelog-http-cache'
+  - path: 'github-changelog-logger.log'
